@@ -2,16 +2,13 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 8
+  serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: PI1
   m_Shader: {fileID: 4800000, guid: f05f4aa1fb7859842932d74a133e738f, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _ENABLERIMLIGHT_ON
+  m_ShaderKeywords: _ENABLERIMLIGHT_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -81,7 +78,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
     - _Addnoise: 0
     - _BumpScale: 1
@@ -121,4 +117,3 @@ Material:
     - _Maintiling: {r: 1, g: 1, b: 0, a: 0}
     - _Noisespeed: {r: 0, g: 0, b: 0, a: 0}
     - _Rimlightcolor: {r: 0.7794118, g: 0.7794118, b: 0.7794118, a: 1}
-  m_BuildTextureStacks: []
